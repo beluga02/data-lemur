@@ -5,6 +5,8 @@
 
 -- Write a query to return the IDs of the Facebook pages that have zero likes. The output should be sorted in ascending order based on the page IDs.
 
+-- Solution:
+
 SELECT pages.page_id FROM pages
 LEFT JOIN page_likes ON pages.page_id = page_likes.page_id
 WHERE 1 = 1
