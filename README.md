@@ -1,2 +1,2 @@
 # data-lemur
-Solved Exercises from the site Data Lemur
+Solved Exercises from the site Data Lemur.
