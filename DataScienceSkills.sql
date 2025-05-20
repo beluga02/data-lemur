@@ -9,6 +9,8 @@
 
 -- Candidate 123 is displayed because they have Python, Tableau, and PostgreSQL skills. 345 isn't included in the output because they're missing one of the required skills: PostgreSQL.
 
+-- Solution:
+
 SELECT t1.candidate_id FROM
 candidates t1, candidates t2, candidates t3
 WHERE (t1.candidate_id = t2.candidate_id AND t2.candidate_id = t3.candidate_id)
